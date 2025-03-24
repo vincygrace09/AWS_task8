@@ -1,0 +1,81 @@
+2025-03-14 11:45:17,050 [INFO] USER:yashraj_mahapatra s3_resource.py:40:validate_bucket_name LOG: Starting validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-6620'
+2025-03-14 11:45:17,051 [INFO] USER:yashraj_mahapatra s3_resource.py:73:validate_bucket_name LOG: Finished validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-6620'
+2025-03-14 11:45:17,051 [INFO] USER:yashraj_mahapatra helper.py:525:convert LOG: Stripping run_id:JAP-08,run_type:stm,type:user,user_id:9866b585 from "," a bit..
+2025-03-14 11:45:17,051 [INFO] USER:yashraj_mahapatra helper.py:529:convert LOG: Converting: run_id:JAP-08,run_type:stm,type:user,user_id:9866b585 to dict..
+2025-03-14 11:45:17,051 [INFO] USER:yashraj_mahapatra helper.py:541:convert LOG: Converted to such a dict: {'run_id': 'JAP-08', 'run_type': 'stm', 'type': 'user', 'user_id': '9866b585'}
+2025-03-14 11:45:18,619 [ERROR] USER:yashraj_mahapatra generator.py:70:generate_configuration_files LOG: Invalid credentials provided, please specify the correct one
+2025-03-14 11:45:18,620 [ERROR] USER:yashraj_mahapatra generator.py:72:generate_configuration_files LOG: Error while account_id obtaining
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\site-packages\syndicate\core\conf\generator.py", line 67, in generate_configuration_files
+    caller_identity = sts.get_caller_identity()
+  File "C:\Program Files\Python313\Lib\site-packages\syndicate\connection\helper.py", line 140, in wrapper
+    raise e
+  File "C:\Program Files\Python313\Lib\site-packages\syndicate\connection\helper.py", line 116, in wrapper
+    return handler_func(*args, **kwargs)
+  File "C:\Program Files\Python313\Lib\site-packages\syndicate\connection\sts_connection.py", line 83, in get_caller_identity
+    return self.client.get_caller_identity()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\yashraj_mahapatra\AppData\Roaming\Python\Python313\site-packages\botocore\client.py", line 530, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yashraj_mahapatra\AppData\Roaming\Python\Python313\site-packages\botocore\client.py", line 960, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.exceptions.ClientError: An error occurred (SignatureDoesNotMatch) when calling the GetCallerIdentity operation: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+2025-03-14 11:45:27,515 [INFO] USER:yashraj_mahapatra s3_resource.py:40:validate_bucket_name LOG: Starting validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-6620'
+2025-03-14 11:45:27,515 [INFO] USER:yashraj_mahapatra s3_resource.py:73:validate_bucket_name LOG: Finished validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-6620'
+2025-03-14 11:45:27,515 [INFO] USER:yashraj_mahapatra helper.py:525:convert LOG: Stripping run_id:JAP-08,run_type:stm,type:user,user_id:9866b585 from "," a bit..
+2025-03-14 11:45:27,515 [INFO] USER:yashraj_mahapatra helper.py:529:convert LOG: Converting: run_id:JAP-08,run_type:stm,type:user,user_id:9866b585 to dict..
+2025-03-14 11:45:27,515 [INFO] USER:yashraj_mahapatra helper.py:541:convert LOG: Converted to such a dict: {'run_id': 'JAP-08', 'run_type': 'stm', 'type': 'user', 'user_id': '9866b585'}
+2025-03-14 11:45:28,934 [ERROR] USER:yashraj_mahapatra generator.py:70:generate_configuration_files LOG: Invalid credentials provided, please specify the correct one
+2025-03-14 11:45:28,934 [ERROR] USER:yashraj_mahapatra generator.py:72:generate_configuration_files LOG: Error while account_id obtaining
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\site-packages\syndicate\core\conf\generator.py", line 67, in generate_configuration_files
+    caller_identity = sts.get_caller_identity()
+  File "C:\Program Files\Python313\Lib\site-packages\syndicate\connection\helper.py", line 140, in wrapper
+    raise e
+  File "C:\Program Files\Python313\Lib\site-packages\syndicate\connection\helper.py", line 116, in wrapper
+    return handler_func(*args, **kwargs)
+  File "C:\Program Files\Python313\Lib\site-packages\syndicate\connection\sts_connection.py", line 83, in get_caller_identity
+    return self.client.get_caller_identity()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\yashraj_mahapatra\AppData\Roaming\Python\Python313\site-packages\botocore\client.py", line 530, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yashraj_mahapatra\AppData\Roaming\Python\Python313\site-packages\botocore\client.py", line 960, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.exceptions.ClientError: An error occurred (SignatureDoesNotMatch) when calling the GetCallerIdentity operation: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+2025-03-14 11:46:00,010 [INFO] USER:yashraj_mahapatra s3_resource.py:40:validate_bucket_name LOG: Starting validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-6620'
+2025-03-14 11:46:00,010 [INFO] USER:yashraj_mahapatra s3_resource.py:73:validate_bucket_name LOG: Finished validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-6620'
+2025-03-14 11:46:00,010 [INFO] USER:yashraj_mahapatra helper.py:525:convert LOG: Stripping run_id:JAP-08,run_type:stm,type:user,user_id:9866b585 from "," a bit..
+2025-03-14 11:46:00,010 [INFO] USER:yashraj_mahapatra helper.py:529:convert LOG: Converting: run_id:JAP-08,run_type:stm,type:user,user_id:9866b585 to dict..
+2025-03-14 11:46:00,010 [INFO] USER:yashraj_mahapatra helper.py:541:convert LOG: Converted to such a dict: {'run_id': 'JAP-08', 'run_type': 'stm', 'type': 'user', 'user_id': '9866b585'}
+2025-03-14 11:46:01,431 [ERROR] USER:yashraj_mahapatra generator.py:70:generate_configuration_files LOG: Invalid credentials provided, please specify the correct one
+2025-03-14 11:46:01,431 [ERROR] USER:yashraj_mahapatra generator.py:72:generate_configuration_files LOG: Error while account_id obtaining
+Traceback (most recent call last):
+  File "C:\Program Files\Python313\Lib\site-packages\syndicate\core\conf\generator.py", line 67, in generate_configuration_files
+    caller_identity = sts.get_caller_identity()
+  File "C:\Program Files\Python313\Lib\site-packages\syndicate\connection\helper.py", line 140, in wrapper
+    raise e
+  File "C:\Program Files\Python313\Lib\site-packages\syndicate\connection\helper.py", line 116, in wrapper
+    return handler_func(*args, **kwargs)
+  File "C:\Program Files\Python313\Lib\site-packages\syndicate\connection\sts_connection.py", line 83, in get_caller_identity
+    return self.client.get_caller_identity()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\yashraj_mahapatra\AppData\Roaming\Python\Python313\site-packages\botocore\client.py", line 530, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yashraj_mahapatra\AppData\Roaming\Python\Python313\site-packages\botocore\client.py", line 960, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.exceptions.ClientError: An error occurred (SignatureDoesNotMatch) when calling the GetCallerIdentity operation: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+2025-03-14 11:46:23,125 [INFO] USER:yashraj_mahapatra s3_resource.py:40:validate_bucket_name LOG: Starting validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-6620'
+2025-03-14 11:46:23,125 [INFO] USER:yashraj_mahapatra s3_resource.py:73:validate_bucket_name LOG: Finished validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-6620'
+2025-03-14 11:46:23,125 [INFO] USER:yashraj_mahapatra helper.py:525:convert LOG: Stripping run_id:JAP-08,run_type:stm,type:user,user_id:9866b585 from "," a bit..
+2025-03-14 11:46:23,125 [INFO] USER:yashraj_mahapatra helper.py:529:convert LOG: Converting: run_id:JAP-08,run_type:stm,type:user,user_id:9866b585 to dict..
+2025-03-14 11:46:23,125 [INFO] USER:yashraj_mahapatra helper.py:541:convert LOG: Converted to such a dict: {'run_id': 'JAP-08', 'run_type': 'stm', 'type': 'user', 'user_id': '9866b585'}
+2025-03-14 11:46:24,618 [WARNING] USER:yashraj_mahapatra generator.py:76:generate_configuration_files LOG: The config_path property is not specified. The working directory is used
+2025-03-14 11:46:24,618 [WARNING] USER:yashraj_mahapatra generator.py:93:generate_configuration_files LOG: The "project_path" property is not specified. The working directory will be used as a project path. To change the path, edit the syndicate.yml by path C:\Yashraj Mahapatra\AWS Sandbox\AWS_Sandbox\task12\.syndicate-config-dev
+2025-03-14 11:46:24,622 [INFO] USER:yashraj_mahapatra generator.py:155:generate_configuration_files LOG: Syndicate initialization has been completed. 
+Set SDCT_CONF:
+Unix: export SDCT_CONF="C:\Yashraj Mahapatra\AWS Sandbox\AWS_Sandbox\task12\.syndicate-config-dev"
+Windows: setx SDCT_CONF C:\Yashraj Mahapatra\AWS Sandbox\AWS_Sandbox\task12\.syndicate-config-dev
+2025-03-14 11:46:24,624 [INFO] USER:yashraj_mahapatra helper.py:330:timed LOG: Stage config, elapsed time: 0:00:01.498558
